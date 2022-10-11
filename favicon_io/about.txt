@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Charm
+- Font Author: Copyright 2018 The Charm Project Authors (https://github.com/cadsondemak/charm)
+- Font Source: http://fonts.gstatic.com/s/charm/v10/7cHmv4oii5K0MeYvIe804WIo.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

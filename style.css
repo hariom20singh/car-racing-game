@@ -1,0 +1,115 @@
+html{
+    background-image: url('weatherbackground.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    color: white;
+    background-position: center;
+    background-size: cover;
+    
+}
+.main{
+    display: flex;
+    /* justify-content: center; */
+}
+
+.wrapper{
+    background-color: rgba(208, 181, 142, 0.327);
+    
+    width: 30em;
+    height:35em ;
+    border-radius: 2rem;
+    /* box-sizing: border-box; */
+    padding: 10px;
+
+    box-shadow: 4px 4px 6px rgb(157, 99, 71);
+    /* display: grid; */
+    position: relative;
+
+    margin: auto;
+    margin-top: 5%;
+    /* margin-top: 4em;
+    margin-left: auto; */
+    overflow:visible;
+}
+
+.header{
+    background-image: linear-gradient(to bottom right, red, yellow);
+    box-shadow: 4px 3px 8px rgb(110, 102, 48);
+    width: 8em;
+    height: 1.5em;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3rem;
+    display:grid;
+    color: rgb(110, 102, 48);
+    margin: 2px auto;
+    
+}
+input{
+    text-align: center;
+    padding: 1pc;
+    font-size: 1.5pc;
+    letter-spacing: 2px;
+    background-color: rgba(99, 125, 161, 0.501);
+    color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    border-radius: 1rem;
+    /* font-weight: bolder; */
+}
+::placeholder{
+    color:rgb(197, 232, 231);
+    font-family:'Courier New', Courier, monospace;
+
+
+}
+.input-city{
+    padding: 20px;
+    display: grid;
+}
+button{
+    background-color: rgba(245, 222, 179, 0.074);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: medium;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    border-radius: 1rem;
+    color: white;
+    
+    margin: 2%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+button:hover{
+    background-color: rgb(33, 43, 99);
+    border: 2px solid white;
+}
+.card-header{
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid rgb(62, 60, 60);
+    margin-top: 17%;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    background-color: rgba(128, 142, 199, 0.422);
+    /* border-radius: r; */
+}
+
+.card-body{
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+    border: 1px solid rgb(62, 60, 60);
+    margin-top: 0%;
+
+}
+li{
+    list-style: none;
+}
